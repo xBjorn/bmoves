@@ -56,3 +56,7 @@ def main():
         if file_extension.lower() == extOptions[extArg]:
             os.rename(filename+extOptions[extArg], tempPath )
             print("File {a} moved to {b}".format(a=filename+extOptions[extArg],b=tempPath))
+
+            
+if __name__ == "__main__":
+    main()
